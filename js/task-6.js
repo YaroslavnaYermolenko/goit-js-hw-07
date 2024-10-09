@@ -15,7 +15,7 @@ btnCreate.addEventListener('click', () => {
     destroyBoxes();
     createBoxes(inputValue);
   } else {
-    window.alert("Please, write a number from 0 to 100");
+    window.alert("Please, write a number from 1 to 100");
   }
 });
 btnDestroy.addEventListener('click', destroyBoxes);
